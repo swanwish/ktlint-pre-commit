@@ -3,8 +3,8 @@ set -e -o pipefail
 
 lint=swiftlint
 if ! command -v $lint &> /dev/null ; then
-    echo "$lint not installed or available in the PATH" >&2
-    exit 1
+  echo "$lint not installed or available in the PATH" >&2
+  exit 1
 fi
 
 # https://github.com/realm/SwiftLint
