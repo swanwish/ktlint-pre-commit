@@ -1,0 +1,5 @@
+- id: ktlint
+  name: 'ktlint'
+  description: "Runs `ktlint`, need install ktlint first"
+  entry: run-ktlint.sh
+  files: '\.kt[s]$'
