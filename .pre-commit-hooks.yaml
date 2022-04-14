@@ -4,3 +4,9 @@
   language: 'script'
   files: '\.kt[s]?$'
   description: "Runs `ktlint`, need install ktlint first"
+- id: swiftlint
+  name: SwiftLint
+  description: "Check Swift files for issues with SwiftLint"
+  entry: "swiftlint --quiet"
+  language: swift
+  types: [swift]
