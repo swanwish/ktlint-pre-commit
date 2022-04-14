@@ -7,6 +7,6 @@
 - id: swiftlint
   name: SwiftLint
   description: "Check Swift files for issues with SwiftLint"
-  entry: run-swift.sh
+  entry: run-swiftlint.sh
   language: script
   types: [swift]
