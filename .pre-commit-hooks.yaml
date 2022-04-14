@@ -6,7 +6,7 @@
   description: "Runs `ktlint`, need install ktlint first"
 - id: swiftlint
   name: SwiftLint
-  description: "Check Swift files for issues with SwiftLint"
   entry: run-swiftlint.sh
   language: script
-  types: [swift]
+  files: '\.swift$'
+  description: "Check Swift files for issues with SwiftLint"
