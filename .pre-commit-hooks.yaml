@@ -2,5 +2,5 @@
   name: 'ktlint'
   entry: run-ktlint.sh
   language: 'script'
-  files: '\.kt[s]$'
+  files: '\.kt[s]?$'
   description: "Runs `ktlint`, need install ktlint first"
