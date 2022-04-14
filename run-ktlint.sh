@@ -7,5 +7,5 @@ if ! command -v ktlint &> /dev/null ; then
 fi
 
 # https://github.com/pinterest/ktlint pre-commit hook
-git diff --name-only --cached --relative | grep '\.kt[s"]\?$' | xargs ktlint --relative
+git diff --name-only --cached --relative | grep '\.kt[s"]\?$' | xargs ktlint --relative --color
 if [ $? -ne 0 ]; then exit 1; fi
